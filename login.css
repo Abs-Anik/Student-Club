@@ -1,0 +1,40 @@
+body{
+	background-image:url('wl.jpeg');
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+
+	
+}
+.card{
+	
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background: transparent;
+	border: 1px solid powderblue;
+}
+.card img{
+	height: 150px;
+	opacity:0.8;
+	filter:alpha(opacity=60);
+}
+.card-body{
+	border-top: 1px solid powderblue;
+	border-bottom: 1px solid powderblue;
+
+}
+.card a{
+	width:100%;
+	font-family: sans-serif;
+	border: 0;
+	outline: 0;
+	padding:10px;
+	margin-bottom: 5px;
+}
+
+.card-footer p{
+	margin-top: 5px;
+	padding: 1px;
+	 
+}
+

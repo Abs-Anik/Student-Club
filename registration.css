@@ -1,0 +1,51 @@
+body{
+	background-image:url('wal.jpeg');
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+.col-sm-12{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+
+}
+.col-sm-5{
+	background-color: #003333;
+	margin-bottom: 2px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	opacity:0.8;
+	filter:alpha(opacity=60);
+}
+.col-sm-5 img{
+	height: 250px;
+	width: 300px;
+	margin-top: 10px;
+}
+.col-sm-7{
+	background-color: #CCCC99;
+	margin-bottom: 2px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	opacity:0.8;
+	filter:alpha(opacity=60);
+}
+.col-sm-7 form a{
+	width:100%;
+	font-family: sans-serif;
+	border: 0;
+	outline: 0;
+	padding:10px;
+	margin-bottom: 5px;
+}
+.col-sm-5 form textarea{
+	max-height: 350px;
+}
+.col-sm-5 button{
+	width:100%;
+	font-family: sans-serif;
+	border: 0;
+	outline: 0;
+	padding: 10px;
+}

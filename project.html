@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="project.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a href="#" class="navbar-brand">Logo</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarcollapse">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown"><a href="#" class="nav-link active dropdown-toggle" data-toggle="dropdown" id="navbardrop">Help</a>
+                    <div class="dropdown-menu bg-dark">
+                        <a href="#cn" class="dropdown-item text-white ">Contact</a>
+                        <a href="#services" class="dropdown-item">Our Services</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a href="#" class="nav-link active">About</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link active">Log out</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1>Welcome</h1>
+        <h1>To</h1>
+        <h1>Secret Student Club</h1>
+        <p>Find Anyone Search Here</p>
+
+        <form class="form-inline  d-block" action="" method="">
+            <div class="input-group">
+                <input type="text" class="form-control" name="search_item" placeholder="Search Anything To Get Information" size="50" required="">
+                <div class="input-group-btn">
+                    <input type="submit" name="search" class="btn btn-danger" value="Search">
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <div class="container-fluid bg-gray">
+        <div class="row">
+            <div class="col-sm-4">
+                <i class="fas fa-globe fa-9x logo-small"></i>
+            </div>
+            <div class="col-sm-8">
+                <h2>Our Values</h2>
+                <h4><strong>Mission:</strong> Our mission lorem ipsum..</h4>
+                <p><strong>Vission:</strong> Our mission lorem ipsum..</p>
+            </div>
+        </div>
+    </div>
+    <div class="back" id="services">
+        <div class="container-fluid" id="services">
+
+            <h2 class="text-center">Services</h2>
+            <p class="text-center">What we offer</p>
+            <div class="row side">
+                <div class="col-sm-4 text-center">
+                    <i class="fas fa-book fa-2x logo-small"></i>
+                    <h4>Libary</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fas fa-newspaper fa-2x logo-small"></i>
+                    <h4>Question Bank</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fas fa-file-powerpoint fa-2x logo-small"></i>
+                    <h4>Presentation file</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <i class="fab fa-envira fa-2x logo-small"></i>
+                    <h4>Green</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fas fa-certificate fa-2x logo-small"></i>
+                    <h4>Certified</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fas fa-wrench fa-2x logo-small"></i>
+                    <h4>Hard Work</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-gray text-center" id="portfolio">
+        <h2>Portfolio</h2>
+        <br>
+        <h4>What we have created</h4>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="paris.jpg" alt="Paris" class="img-fluid" width="400" height="300">
+                        <p><strong>Paris</strong></p>
+                        <p>Yes, we built Paris</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="newyork.jpg" alt="newyork" class="img-fluid">
+                        <p><strong>New York</strong></p>
+                        <p>Yes, we built New York</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="sanfran.jpg" alt="Sanfran" class="img-fluid" width="400" height="300">
+                        <p><strong>San Francisco</strong></p>
+                        <p>Yes, San Fran is ours</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid back">
+        <h2 class="text-center">What our customers say</h2>
+        <div id="demo" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ol>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+                </div>
+                <div class="carousel-item">
+                    <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+                </div>
+                <div class="carousel-item">
+                    <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-warning"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon bg-warning"></span>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" id="cn">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="row" id="cn">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><i class="fas fa-map-marker-alt"></i> DIU-PC,Savar,Dhaka,Bangladesh</p>
+                <p><i class="fas fa-mobile-alt"></i> +880-1794282051</p>
+                <p><i class="fas fa-envelope"></i> absiidikanik11@gmail.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <form class="form-inline">
+                            <input type="text" class="form-control" placeholder="Enter Your Name" id="name" required="">
+                        </form>
+                    </div>
+                    <div class="col-sm-6">
+                        <form class="form-inline" action="" method="">
+                            <input type="email" class="form-control float-right" placeholder="Enter Your Email" id="email" required="">
+                        </form>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-10">
+                        <form action="" method="">
+                            <div class="form-group">
+                                <label for="comment">Comment:</label>
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+
+                            </div>
+                            <input type="submit" name="comment" value="Send" class="fa-pull-right btn btn-default">
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <h4 class="text-center text-white">You Can Follow Us On</h4>
+        <div class="icon">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+            </ul>
+        </div>
+        <p class="text-white text-center">All Right Reserved &copy; Abs_Anik</p>
+    </div>
+</body>
+
+</html>
